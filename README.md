@@ -1,7 +1,7 @@
 # OUTRE
 This is the code repository of "OUTRE: An Out-of-core De-Redundancy Framework for GNN Training on Massive Graphs within A Single Server". The code of OUTRE is built on an existing GNN training framework [Ginex](https://github.com/SNU-ARC/Ginex). The Bloom Filter implementation in OUTRE is from [here](https://github.com/ArashPartow/bloom).
 
-#### Setup:
+### Setup:
 
 1. Disable `read_ahead` on Linux.
     ```console
@@ -41,7 +41,7 @@ This is the code repository of "OUTRE: An Out-of-core De-Redundancy Framework fo
 
 6. Allocate enough swap area.
 
-#### Run on mag240m-cite:
+### Run on mag240m-cite:
 
 1. Prepare dataset
     ```console
